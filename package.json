@@ -1,0 +1,21 @@
+{
+  "name": "temperature-back",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardodallmann/temperature-back.git"
+  },
+  "author": "Eduardo Dallmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardodallmann/temperature-back/issues"
+  },
+  "homepage": "https://github.com/eduardodallmann/temperature-back#readme"
+}
