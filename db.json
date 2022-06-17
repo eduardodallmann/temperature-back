@@ -1,4 +1,37 @@
 {
+    "dash": [
+        {
+            "nome": "Geladeira Fundos",
+            "hora": "00:15:01",
+            "temperatura": 20.65,
+            "status": "FORA",
+            "qtdErros": 1
+        },
+        {
+            "nome": "Geladeira Fundos",
+            "hora": "00:25:01",
+            "temperatura": 14.32,
+            "status": "DENTRO"
+        },
+        {
+            "nome": "Geladeira pública",
+            "hora": "00:02:15",
+            "temperatura": 13.22,
+            "status": "DENTRO"
+        },
+        {
+            "nome": "Geladeira ABC",
+            "hora": "00:09:55",
+            "temperatura": 10.12,
+            "status": "DENTRO"
+        },
+        {
+            "nome": "Geladeira QWE",
+            "hora": "00:11:01",
+            "temperatura": 12.34,
+            "status": "DENTRO"
+        }
+    ],
     "equipamentos": [
         {
             "id": 1,
