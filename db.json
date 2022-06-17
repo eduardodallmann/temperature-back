@@ -54,7 +54,7 @@
             "permanencia": 712
         }
     ],
-    "leitores": [
+    "leitors": [
         {
             "id": 1,
             "equipamentoId": 1,
@@ -99,6 +99,7 @@
     "leituras": [
         {
             "id": 1,
+            "leitorId": 1,
             "data": "2020-12-12",
             "hora": "23:05:01",
             "temperatura": 11.32,
@@ -106,6 +107,7 @@
         },
         {
             "id": 2,
+            "leitorId": 1,
             "data": "2020-12-12",
             "hora": "23:15:01",
             "temperatura": 10.22,
@@ -113,6 +115,7 @@
         },
         {
             "id": 3,
+            "leitorId": 1,
             "data": "2020-12-12",
             "hora": "23:25:01",
             "temperatura": 9.98,
@@ -120,6 +123,7 @@
         },
         {
             "id": 4,
+            "leitorId": 1,
             "data": "2020-12-12",
             "hora": "23:35:01",
             "temperatura": 10.55,
@@ -127,6 +131,7 @@
         },
         {
             "id": 5,
+            "leitorId": 1,
             "data": "2020-12-12",
             "hora": "23:45:01",
             "temperatura": 13.12,
@@ -134,6 +139,7 @@
         },
         {
             "id": 6,
+            "leitorId": 1,
             "data": "2020-12-12",
             "hora": "23:55:01",
             "temperatura": 15.11,
@@ -141,6 +147,7 @@
         },
         {
             "id": 7,
+            "leitorId": 1,
             "data": "2020-12-13",
             "hora": "00:05:01",
             "temperatura": 17.08,
@@ -148,6 +155,7 @@
         },
         {
             "id": 8,
+            "leitorId": 1,
             "data": "2020-12-13",
             "hora": "00:15:01",
             "temperatura": 20.65,
@@ -155,6 +163,7 @@
         },
         {
             "id": 9,
+            "leitorId": 1,
             "data": "2020-12-13",
             "hora": "00:25:01",
             "temperatura": 14.32,
