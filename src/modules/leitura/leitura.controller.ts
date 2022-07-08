@@ -20,7 +20,6 @@ export class LeituraController {
 
   @Get()
   async listLeituras(@Query() query: QueryLeitura) {
-    console.log(query);
     return this.leitorService.listLeituras(query);
   }
 }
