@@ -17,7 +17,7 @@ import { LeituraModule } from './modules/leitura/leitura.module';
     }),
     TypeOrmModule.forRoot({
       type: 'postgres',
-      url: `${process.env.DATABASE_URL}?sslmode=require`,
+      url: process.env.DATABASE_URL,
       entities: [Equipamento, Leitor, Leitura],
       synchronize: true,
       // logging: ['query', 'error'],
