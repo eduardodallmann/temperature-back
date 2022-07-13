@@ -20,6 +20,14 @@ export type QueryLeitura = {
   dataFinal: Date;
 };
 
+export type ResponseDash = {
+  nome: string;
+  hora: string;
+  temperatura: number;
+  status: StatusLeitura;
+  qtdErros?: number | undefined;
+};
+
 @Entity('leitura')
 export class Leitura extends BaseEntity {
   @PrimaryGeneratedColumn('uuid')

@@ -22,4 +22,9 @@ export class LeituraController {
   async listLeituras(@Query() query: QueryLeitura) {
     return this.leitorService.listLeituras(query);
   }
+
+  @Get('dash')
+  async getDash() {
+    return this.leituraService.getDash();
+  }
 }

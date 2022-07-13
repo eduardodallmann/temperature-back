@@ -18,7 +18,13 @@ export class LeitorService {
     return this.equipamentoService.getEquipamentoWithLeitores(equipamento);
   }
 
-  getById(leitorId: string) {
+  async getByEquipamento(id: string) {
+    return this.leitorRepository.find({
+      where: { equipamento: { id } },
+    });
+  }
+
+  async getById(leitorId: string) {
     return this.leitorRepository.findOneByOrFail({ id: leitorId });
   }
 
